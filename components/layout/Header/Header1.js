@@ -1,6 +1,7 @@
 
 import Logo from './Logo';
 import Menu from './Menu';
+import MainMenu from './MainMenu';
 import MenuMobile from './MenuMobile';
 import * as Icon from 'react-feather';
 import Link from 'next/link';
@@ -14,14 +15,14 @@ export default function Header({ navColor, logo, scroll, navToggled, navHandle }
                         <div className="col-2">
                             <Logo logo={logo} />
                         </div>
-                        <Menu navColor={navColor} />
+                        <MainMenu navColor={navColor} />
                         <MenuMobile navToggled={navToggled} />
 
                         <div className="col-auto">
                             <div className="header__right">
                                 <div className="md:d-none">
-                                    <Link href="/login" className="button -sm -outline-light-dark sm:d-none">Join</Link>
-                                    <Link href="/contact/contact-1" className="button -sm -dark text-white ml-12">Get the App</Link>
+                                    <Link href="/login" className="button -sm -outline-light-dark sm:d-none">Нэвтрэх</Link>
+                                    <Link href="/contact/contact-1" className="button -sm -dark text-white ml-12">Бүртгүүлэх</Link>
                                 </div>
                                 <div className="header__menu justify-center items-center relative d-none md:d-flex" onClick={navHandle}>
                                     <button type="button" className={`d-flex items-center justify-center js-nav-open ${navToggled ? "pointer-events-none opac-0" : "opac-1"}`} onClick={navHandle}>

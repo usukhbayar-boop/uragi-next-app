@@ -24,8 +24,8 @@ export default function Register() {
                         </div>
                         <div className="col-lg-5">
                             <div className="md:container py-48">
-                                <h1 className="text-4xl md:text-3xl">Register</h1>
-                                <p className="mt-16">Already have an account? <Link className="decoration-none text-accent fw-600" href="/login">Login here</Link></p>
+                                <h1 className="text-4xl md:text-3xl">Бүртгүүлэх</h1>
+                                <p className="mt-16">Бүртгэлтэй юу? <Link className="decoration-none text-accent fw-600" href="/login">Энд дарж нэвтэрнэ үү</Link></p>
                                 <form className="contact-form row y-gap-32 pt-48" action="#">
                                     <div className="col-12">
                                         <input type="text" name="name" placeholder="User Name" />

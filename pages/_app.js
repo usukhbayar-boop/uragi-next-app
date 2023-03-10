@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Sassio - NextJS Template by AliThemes</title>
+        <title>Ургийн бичиг</title>
       </Head>
       <NextNProgress />
       <Component {...pageProps} />

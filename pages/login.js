@@ -25,14 +25,14 @@ export default function Login() {
                         </div>
                         <div className="col-lg-5">
                             <div className="md:container py-48">
-                                <h1 className="text-4xl md:text-3xl">Login</h1>
-                                <p className="mt-16">Don't have an account yet? <Link className="decoration-none text-accent fw-600" href="register">Create it here</Link></p>
+                                <h1 className="text-4xl md:text-3xl">Нэвтрэх</h1>
+                                <p className="mt-16">Бүртгүүлж амжаагүй юу? <Link className="decoration-none text-accent fw-600" href="register">Энд дарж бүртгүүлнэ үү</Link></p>
                                 <form className="contact-form row y-gap-32 pt-48" action="#">
                                     <div className="col-12">
-                                        <input type="text" name="name" placeholder="User Name" />
+                                        <input type="text" name="name" placeholder="Утасны дугаар" />
                                     </div>
                                     <div className="col-12">
-                                        <input type="password" name="password" placeholder="Password" />
+                                        <input type="password" name="password" placeholder="Нууц үг" />
                                     </div>
                                     <div className="col-12">
                                         <div className="row justify-between">
@@ -45,18 +45,18 @@ export default function Login() {
                                                         </div>
                                                     </div>
                                                     <label htmlFor="items">
-                                                        Remember me
+                                                        намайг сана
                                                     </label>
                                                 </div>
                                             </div>
                                             <div className="col-auto">
-                                                <a className="decoration-none text-accent" href="#">Forgot your password?</a>
+                                                <a className="decoration-none text-accent" href="#">Нууц үгээ мартсан?</a>
                                             </div>
                                         </div>
                                     </div>
                                     <div className="col-12">
                                         <button type="submit" name="submit" id="submit" className="button -md -accent -uppercase text-white">
-                                            Login
+                                            Нэвтрэх
                                         </button>
                                     </div>
                                 </form>

@@ -73,7 +73,7 @@ export default function HeroOne({ bgPath, textWhite }) {
                                 },
                                 detectRetina: true,
                             }}
-                        />
+                        />  
                     </div>
                     <img src={`../img/${bgPath}/bg.png`} alt="bg" />
                     <img className="wow animate__animated animate__fadeInUp" src="/img/home-1/masthead/rect.svg" alt="bg" />
@@ -86,12 +86,11 @@ export default function HeroOne({ bgPath, textWhite }) {
                                     <span>On sale for a limited time</span>
                                 </div>
                                 <h1 className={`masthead__title wow animate__animated animate__fadeInUp ${textWhite}`}>
-                                    Premium Startup &amp; App<br />
-                                    <span className={`${textWhite ? textWhite : "text-accent"} wow animate__animated animate__fadeInUp`}>Landing Page</span>
+                                    {/* Premium Startup &amp; App<br /> */}
+                                    <span className={`${textWhite ? textWhite : "text-accent"} wow animate__animated animate__fadeInUp`}>Ургийн бичиг</span>
                                 </h1>
                                 <p className={`masthead__text wow animate__animated animate__fadeInUp ${textWhite}`}>
-                                    Besides its beautiful design. Sassio is an incredibly rich core<br className="sm:d-none" />
-                                    framework for you to showcase your App.
+                                    Хүссэн загвараа өөрөө сонгол ургийн бичигээ хийх боломжтой
                                 </p>
                                 <div className="masthead__buttons row y-gap-10 pt-32 md:pt-20">
                                     <div className="col-auto text-white wow animate__animated animate__fadeInUp">

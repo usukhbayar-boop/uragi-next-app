@@ -11,6 +11,19 @@ import HeroOne from '@/components/sections/homepage/HeroOne';
 import PricingOne from '@/components/sections/homepage/PricingOne';
 import SuccessOne from '@/components/sections/homepage/SuccessOne';
 import TestimonialOne from '@/components/sections/homepage/TestimonialOne';
+import { initializeApp } from "firebase/app";
+const firebaseConfig = {
+    apiKey: "AIzaSyDCtyjYuX-eAXflhsONv8FXotcNuQwuPLs",
+    authDomain: "uriga-fa7c3.firebaseapp.com",
+    projectId: "uriga-fa7c3",
+    storageBucket: "uriga-fa7c3.appspot.com",
+    messagingSenderId: "639459325444",
+    appId: "1:639459325444:web:7ff9b938f6c453c333e751",
+    measurementId: "G-Z2RJTKPVQY"
+  };
+  
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
 
 export default function Home1() {
     return (

@@ -7,17 +7,19 @@ export default function Logo({ logo }) {
                 <Link className="base-logo" href="/">
                     <img
                         className="base-logo-first"
-                        src={`/img/general/${logo ? logo : "logo"}.svg`}
+                        src={`/img/general/logo-dark.png`}
                         alt="logo"
+                        width="50" height="60"
                     />
                     <img
                         className="base-logo-second"
-                        src="/img/general/logo-dark.svg"
+                        src="/img/general/logo-dark.png"
                         alt="logo"
+                        width="50" height="60"
                     />
                 </Link>
                 <Link className="menu-logo" href="/">
-                    <img src="/img/general/logo-dark.svg" alt="logo" />
+                    <img src="/img/general/logo-dark.png" alt="logo" width="50" height="60" />
                 </Link>
             </div>
         </>
